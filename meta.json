@@ -5,22 +5,51 @@
     //Required. Inputs the module expects.
     "inputs": [
         //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "idMember",
+            "title":" Member ID"
+        },
+        {
+            "id": "username",
+            "title":"Username"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
       //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "id",
+            "title":"ID"
+        },
+        {
+            "id": "name",
+            "title":"Name"
+        },
+        {
+            "id": "memberships",
+            "title":"Memberships"
+        },
+        {
+            "id": "shortLink",
+            "title":"Short Link"
+        },
+        {
+            "id": "shortUrl",
+            "title":"Short URL"
+        },
+        {
+            "id": "starred",
+            "title":"Starred"
+        },
+        {
+            "id": "subscribed",
+            "title":"Subscribed"
+        },
+        {
+            "id": "url",
+            "title":"URL"
         }
-      */
     ],
+    "icon": "trello",
     "title": "Trello Get User Boards" /* Required.A display name for the module */
 }
