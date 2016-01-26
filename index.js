@@ -25,7 +25,7 @@ module.exports = {
      */
     run: function(step, dexter) {
         var credentials = dexter.provider('trello').credentials(),
-            t = new trello(credentials.consumer_key, credentials.access_token),
+            t = new trello(_.get(credentials, 'consumer_key'), _.get(credentials, 'access_token')),
             inputs = util.pickInputs(step, pickInputs),
             member = inputs.idMember? inputs.idMember : inputs.username;
 
