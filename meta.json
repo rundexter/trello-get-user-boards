@@ -50,6 +50,9 @@
             "title":"URL"
         }
     ],
+    "providers": [{
+        "name": "trello"
+    }],
     "icon": "trello",
     "title": "Trello Get User Boards" /* Required.A display name for the module */
 }
